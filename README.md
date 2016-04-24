@@ -4,9 +4,9 @@ Given an airport's total monthly passenger counts for a period of N months, fore
 
 Input Format
 
-The first line contains an integer, N, denoting the number of months of passenger data. The NN subsequent lines each contain the monthly passenger counts in the form of 22 tab-separated values:
+The first line contains an integer, N, denoting the number of months of passenger data. The N subsequent lines each contain the monthly passenger counts in the form of 2 tab-separated values:
 
-    The first value is <img src="http://www.sciweavers.org/tex2img.php?eq=MonthNum%5C_X&bc=White&fc=Black&im=jpg&fs=12&ff=mathdesign&edit=0" align="center" border="0" alt="MonthNum\_X" width="121" height="18" />, where X is an an integer denoting the month number.
+    The first value is MonthNum_X, where X is an an integer denoting the month number.
     The second value is an integer denoting the number of passengers for that month.
 
 Constraints
@@ -15,5 +15,5 @@ Constraints
 
 Output Format
 
-For each line i (where <img src="http://www.sciweavers.org/tex2img.php?eq=1%20%5Cle%20i%20%5Cle%2012&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="1 \le i \le 12" width="83" height="17" />), print the forecasted passenger count for month number N+i on a new line.
+For each line i (where  1≤i≤12), print the forecasted passenger count for month number N+i on a new line.
 
